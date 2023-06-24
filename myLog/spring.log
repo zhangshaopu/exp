@@ -1,0 +1,17 @@
+2023-06-24 23:41:05.230  INFO 20332 --- [main] com.example.exp.ExpApplication           : Starting ExpApplication using Java 1.8.0_362 on DESKTOP-2L8NVOA with PID 20332 (E:\Code\Java\exp\target\classes started by zsp in E:\Code\Java\exp)
+2023-06-24 23:41:05.233  INFO 20332 --- [main] com.example.exp.ExpApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-06-24 23:41:05.990  INFO 20332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-24 23:41:05.993  INFO 20332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-24 23:41:06.011  INFO 20332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-06-24 23:41:06.683  INFO 20332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-24 23:41:06.691  INFO 20332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-24 23:41:06.691  INFO 20332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-06-24 23:41:06.802  INFO 20332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-24 23:41:06.802  INFO 20332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1514 ms
+2023-06-24 23:41:08.026  INFO 20332 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2023-06-24 23:41:08.265  INFO 20332 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-06-24 23:41:08.528  INFO 20332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-24 23:41:08.529  INFO 20332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2023-06-24 23:41:08.532  INFO 20332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-06-24 23:41:08.558  INFO 20332 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-06-24 23:41:08.704  INFO 20332 --- [main] com.example.exp.ExpApplication           : Started ExpApplication in 3.908 seconds (JVM running for 4.625)
